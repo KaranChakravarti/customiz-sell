@@ -7,7 +7,7 @@ export const inngest = new inngest({id: "Customize-sell"});
 
 export const syncUserCreation = inngest.createFunction(
     {
-        id:'sync-userfrom-clerk'
+        id:'sync-user-from-clerk'
     },
     {
         event: 'clerk/user.created'},
